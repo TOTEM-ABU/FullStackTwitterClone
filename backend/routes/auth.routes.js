@@ -7,11 +7,11 @@ import {
 } from "../controllers/auth.controller.js";
 import { protectRoute } from "../middleware/protectRoute.js";
 
-const router = express.Router();
+const routes = express.Router();
 
-router.get("/me", protectRoute, getMe);
-router.post("/signup", signup);
-router.post("/login", login);
-router.post("/logout", logout);
+routes.get("/me", protectRoute, getMe);
+routes.post("/signup", signup);
+routes.post("/login", login);
+routes.post("/logout", logout);
 
-export default router;
+export default routes;
