@@ -4,8 +4,6 @@ import { Link, useParams } from "react-router";
 import { ProfileHeaderSkeleton, Posts } from "../../components";
 import EditProfileModal from "./EditProfileModal";
 
-import { POSTS } from "../../utils/db/dummy";
-
 import { FaArrowLeft } from "react-icons/fa6";
 import { IoCalendarOutline } from "react-icons/io5";
 import { FaLink } from "react-icons/fa";
@@ -82,7 +80,6 @@ const ProfilePage = () => {
                                 </Link>
                                 <div className='flex flex-col'>
                                     <p className='font-bold text-lg'>{user?.fullname}</p>
-                                    <span className='text-sm text-slate-500'>{POSTS?.length} posts</span>
                                 </div>
                             </div>
                             <div className='relative group/cover'>
