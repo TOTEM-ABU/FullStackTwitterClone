@@ -85,8 +85,8 @@ const ProfilePage = () => {
                                     <FaArrowLeft className='w-4 h-4' />
                                 </Link>
                                 <div className='flex flex-col'>
-                                    <p className='font-bold text-lg'>{user?.fullName}</p>
-                                    <span className='text-sm text-slate-500'>{POSTS?.length} posts</span>
+                                    <p className='font-bold text-lg'>{user?.fullname}</p>
+                                    <span className='text-sm text-slate-500'>{Posts?.length} posts</span>
                                 </div>
                             </div>
                             {/* COVER IMG */}
