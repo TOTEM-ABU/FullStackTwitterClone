@@ -6,7 +6,6 @@ A full-stack Twitter clone built with the MERN stack (MongoDB, Express.js, React
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Environment Variables](#environment-variables)
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
 - [Screenshots](#screenshots)
@@ -43,27 +42,6 @@ A full-stack Twitter clone built with the MERN stack (MongoDB, Express.js, React
 - **TanStack Query** - Server state management
 - **React Icons** - Popular icons as React components
 - **Vite** - Frontend build tool
-
-## Environment Variables
-
-Create a `.env` file in the root directory with the following variables:
-
-```env
-# Server configuration
-PORT=5000
-NODE_ENV=development
-
-# MongoDB connection
-MONGO_URI=your_mongodb_connection_string
-
-# JWT secret
-JWT_SECRET=your_jwt_secret_key
-
-# Cloudinary configuration
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-```
 
 ## Project Structure
 
@@ -120,7 +98,8 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 ## Screenshots
 
-_(Add screenshots of your application here to showcase the UI)_
+![alt text](frontend/public/project1.png)
+![alt text](frontend/public/project2.png)
 
 ## Contributing
 
