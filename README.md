@@ -6,10 +6,7 @@ A full-stack Twitter clone built with the MERN stack (MongoDB, Express.js, React
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Environment Variables](#environment-variables)
-- [Running the Application](#running-the-application)
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
 - [Screenshots](#screenshots)
@@ -47,33 +44,6 @@ A full-stack Twitter clone built with the MERN stack (MongoDB, Express.js, React
 - **React Icons** - Popular icons as React components
 - **Vite** - Frontend build tool
 
-## Prerequisites
-
-- Node.js (v14 or higher)
-- MongoDB database (local or cloud)
-- Cloudinary account for image hosting
-
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone <repository-url>
-```
-
-2. Install backend dependencies:
-
-```bash
-npm install
-```
-
-3. Install frontend dependencies:
-
-```bash
-cd frontend
-npm install
-```
-
 ## Environment Variables
 
 Create a `.env` file in the root directory with the following variables:
@@ -94,38 +64,6 @@ CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 ```
-
-## Running the Application
-
-### Development Mode
-
-To run both frontend and backend in development mode:
-
-```bash
-# Start backend server
-npm run dev
-
-# In a new terminal, start frontend development server
-cd frontend
-npm run dev
-```
-
-### Production Mode
-
-To build and run in production mode:
-
-```bash
-# Build the application
-npm run build
-
-# Start the production server
-npm start
-```
-
-The application will be available at:
-
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:5000
 
 ## Project Structure
 
